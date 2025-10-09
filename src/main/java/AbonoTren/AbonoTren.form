@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AbonoTren.AbonoTren">
-  <grid id="27dc6" binding="VentanaPrincipal" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="VentanaPrincipal" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="351"/>
+      <xy x="20" y="20" width="500" height="354"/>
     </constraints>
     <properties>
       <background color="-1379334"/>
     </properties>
     <border type="none"/>
     <children>
-      <component id="ce931" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <font size="20" style="1"/>
-          <foreground color="-14796193"/>
-          <text value="ABONO DEL TREN"/>
-        </properties>
-      </component>
       <component id="9b883" class="javax.swing.JCheckBox" binding="aceptarTérminosYCondicionesCheckBox" default-binding="true">
         <constraints>
           <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <foreground color="-16777216"/>
           <text value="Aceptar términos y condiciones"/>
         </properties>
       </component>
@@ -40,11 +31,12 @@
           <color color="-16777216"/>
         </border>
         <children>
-          <component id="98301" class="javax.swing.JLabel">
+          <component id="98301" class="javax.swing.JLabel" binding="MesRecarga">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <foreground color="-16777216"/>
               <text value="Mes de recarga:"/>
             </properties>
           </component>
@@ -56,11 +48,12 @@
               <foreground color="-16777216"/>
             </properties>
           </component>
-          <component id="91026" class="javax.swing.JLabel">
+          <component id="91026" class="javax.swing.JLabel" binding="MetodoPago">
             <constraints>
               <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <foreground color="-16777216"/>
               <text value="Método de pago:"/>
             </properties>
           </component>
@@ -78,11 +71,12 @@
               </model>
             </properties>
           </component>
-          <component id="20aa2" class="javax.swing.JLabel">
+          <component id="20aa2" class="javax.swing.JLabel" binding="CantidadDinero">
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <foreground color="-16777216"/>
               <text value="Cantidad:"/>
             </properties>
           </component>
@@ -125,12 +119,12 @@
           <color color="-16777216"/>
         </border>
         <children>
-          <component id="3ef59" class="javax.swing.JLabel">
+          <component id="3ef59" class="javax.swing.JLabel" binding="NombreTitular">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <foreground color="-13750738"/>
+              <foreground color="-16777216"/>
               <text value="Nombre del Titular:"/>
             </properties>
           </component>
@@ -142,12 +136,12 @@
             </constraints>
             <properties/>
           </component>
-          <component id="5993e" class="javax.swing.JLabel">
+          <component id="5993e" class="javax.swing.JLabel" binding="NumeroDNI">
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <foreground color="-13750738"/>
+              <foreground color="-16777216"/>
               <text value="Número DNI:"/>
             </properties>
           </component>
@@ -177,6 +171,7 @@
               <background color="-14776501"/>
               <foreground color="-1"/>
               <text value="Recargar Abono"/>
+              <toolTipText value="Haz clic para recargar el abono"/>
             </properties>
           </component>
           <component id="446ea" class="javax.swing.JButton" binding="cancelarButton" default-binding="true">
@@ -187,6 +182,28 @@
               <background color="-4179669"/>
               <foreground color="-1"/>
               <text value="Cancelar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d73b1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1379334"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f37fa" class="javax.swing.JLabel" binding="Titulo">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="20" style="1"/>
+              <foreground color="-14796193"/>
+              <text value="ABONO DEL TREN"/>
             </properties>
           </component>
         </children>
