@@ -2,6 +2,13 @@
 
 Este repositorio contiene el desarrollo de la cuarta tarea en Java, con participación en distintas ramas y archivos relevantes. 
 
+## Objetivo del proyecto
+
+El proyecto consiste en desarrollar una aplicación en Java que permite la gestión y recarga de abonos de transporte, tanto para autobús como para tren. Incluye interfaces gráficas (usando Swing) donde el usuario puede seleccionar el mes a recargar, ingresar el importe y realizar la operación, mostrando mensajes de confirmación y validaciones. Además, se utilizan imágenes y recursos gráficos para mejorar la interfaz.
+
+- La aplicación se estructura en distintas ramas para facilitar la colaboración entre integrantes.
+- Los módulos principales incluyen la gestión de abonos de autobús y tren, cada uno con su lógica y ventana propia.
+
 ## Ramas principales
 
 - `master`
