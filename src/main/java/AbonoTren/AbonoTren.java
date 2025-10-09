@@ -32,14 +32,17 @@ public class AbonoTren {
                 JOptionPane.showMessageDialog(null, "Recarga realizada con éxito para " + textField1.getText() + ".");
             }
         });
+
+        ImageIcon icono = new ImageIcon(AbonoTren.class.getResource("/icono_tren.png"));
+        Image imagen = icono.getImage().getScaledInstance(32, 32, Image.SCALE_SMOOTH);
+        Titulo.setIcon(new ImageIcon(imagen));
+
     }
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("AbonoTren");
 
-        ImageIcon icono = new ImageIcon(AbonoTren.class.getResource("/icono_tren.png"));
-        Image imagen = icono.getImage().getScaledInstance(32, 32, Image.SCALE_SMOOTH);
-        frame.setIconImage(imagen);
+
 
 
         AbonoTren ventana = new AbonoTren();
