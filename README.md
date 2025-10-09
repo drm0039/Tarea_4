@@ -42,7 +42,7 @@ Las imágenes almacenadas en el repositorio pueden servir para ilustrar el funci
 ## Autor
 
 - [drm0039](https://github.com/drm0039)
-- [agp0094](https://github.com/Adan)
+- [agp0094](https://github.com/AdanGavira)
 
 ---
 
